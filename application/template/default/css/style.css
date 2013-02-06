@@ -1,0 +1,45 @@
+/******************************
+Copyright 2010 UVACS Software
+******************************/
+
+/******************************
+Body
+******************************/
+
+html, body {
+	height: 100%; 
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	font-family: Arial, sans-serif;  
+	font-size: 0.9em;
+}
+
+#nonfooter {
+	position: relative;
+	background-color: #f4f4f4;
+	padding-bottom: 30px;
+}
+
+#non-footer {
+	min-height: 100%;
+}
+
+* html #non-footer {
+	height: 100%;
+} 
+
+#footer {
+	margin: auto;
+	text-align: right;
+	width: 1000px;
+}
+
+#container {
+	margin: auto;
+	text-align: left;
+	width: 1000px;
+	padding-left: 20px;
+	padding-top: 10px;
+}
+

@@ -1,0 +1,84 @@
+/******************************
+Copyright 2010 ZigPHP Framework
+******************************/
+
+/******************************
+Body
+******************************/
+
+html, body {
+	height: 100%; 
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	font-family: Arial, sans-serif;  
+	font-size: 0.9em;
+}
+
+#ZigPHP_error_container {
+	border: 1px solid #dedede;
+	padding: 15px;
+	width: 95%;
+	position: relative;
+	top: 20px;
+	left: 20px;
+}
+
+#ZigPHP_container {
+	padding: 15px;
+	width: 95%;
+	position: relative;
+	top: 20px;
+	left: 20px;
+}
+
+span.ZigPHP_head {
+	color: #005168;
+	font-size: 30px;
+	font-weight: 700;
+}
+
+span.ZigPHP_title {
+	color: #ff8a00;
+	font-size: 24px;
+	font-weight: 700;
+}
+
+span.ZigPHP_sub_title {
+	color: #4b9f13;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+span.ZigPHP_error_title {
+	color: #e91414;
+	font-size: 24px;
+	font-weight: 700;
+}
+
+span.ZigPHP_green {
+	color: #4b9f13;
+}
+
+span.ZigPHP_blue {
+	color: #2a8abd;
+}
+
+#zigPHP_container A:link {
+	color: #139f9d;
+	text-decoration: none;
+}
+
+#zigPHP_container A:visited {
+	color: #139f9d;
+	text-decoration: none;
+}
+
+#zigPHP_container A:hover {
+	color: #139f9d;
+	text-decoration: underline;
+}
+
+
+
+
